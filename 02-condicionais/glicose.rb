@@ -1,9 +1,9 @@
 print "Informe a glicose do paciente: "
-glicose = gets.chomp.to_f
+glucose = gets.chomp.to_f
 
-if glicose <= 100
+if glucose <= 100
   puts "\nNível de glicose normal."
-elsif (glicose > 100) && (glicose <= 140)
+elsif (glucose > 100) && (glucose <= 140)
   puts "\nNível de glicose elevado!"
 else
   puts "\nPaciente com diabetes!"
