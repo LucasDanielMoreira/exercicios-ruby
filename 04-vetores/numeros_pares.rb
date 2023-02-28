@@ -1,6 +1,6 @@
 require_relative '../numbers_quantity'
 
-numbers_quantity
+numbers_quantity("São quantos números? ")
 
 puts
 
