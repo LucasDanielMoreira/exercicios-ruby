@@ -1,4 +1,5 @@
 require_relative '../numbers_quantity.rb'
+require_relative '../gets_numbers.rb'
 
 numbers_quantity
 
@@ -11,14 +12,7 @@ puts
 
 @numbers = []
 
-def gets_numbers
-  @n.times do |i|
-    print "Digite o #{i + 1}º número: "
-    @numbers[i] = gets.chomp.to_i
-  end
-end
-
-gets_numbers
+gets_numbers(@n, :to_i)
 
 puts "\nNÚMEROS NEGATIVOS:"
 
